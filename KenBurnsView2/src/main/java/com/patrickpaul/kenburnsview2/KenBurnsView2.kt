@@ -18,7 +18,7 @@ import kotlin.math.min
  * @see TransitionGenerator
  */
 @SuppressLint("AppCompatCustomView")
-class KenBurnsView2(context: Context, attrs: AttributeSet?, defStyle: Int)
+open class KenBurnsView2(context: Context, attrs: AttributeSet?, defStyle: Int)
     : AppCompatImageView(context, attrs, defStyle) {
 
     /** Matrix used to perform all the necessary transition transformations. */
